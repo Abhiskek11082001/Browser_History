@@ -1,0 +1,67 @@
+.history-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.time-accessed {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.website-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-left: 0px;
+}
+
+.logo-container {
+  display: flex;
+}
+.logo {
+  width: 35px;
+  height: 35px;  
+  margin-right: 10px;
+  margin-left: 0px;
+}
+.domain-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 60%;
+}
+.domain-title {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.domain-url {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+
+
+.delete-button{
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+
+}
+.delete {
+  height: 30px;
+  width: 30px;
+}
